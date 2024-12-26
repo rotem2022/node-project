@@ -1,0 +1,26 @@
+{
+  "name": "my-node-project",
+  "version": "1.0.0",
+  "description": "a simple node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "static": "npx serve -p 5050 static"
+  },
+  "repository": {
+    "type": "git",
+    "url": "rotem2022"
+  },
+  "keywords": [
+    "keywords"
+  ],
+  "author": "rotem",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "fastify": "^5.2.0",
+    "fastify-cli": "^7.3.0",
+    "serve": "^14.2.4",
+    "server": "^1.0.41"
+  }
+}
